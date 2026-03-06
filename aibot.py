@@ -7,6 +7,7 @@ import json
 def response_generator():
     response = ai_ask("Pretend you are a very friendly and helpful person.  " +
                       "Please provide a response given the provided context.  " +
+                      "Please respond in 3-4 sentences or fewer if you need to.  " +
                       "Please provide the response only with no before or after commentary." + 
                       "please do not double quote your responses.",
                       data=st.session_state.messages,
