@@ -6,7 +6,7 @@ import time
 # Streamed response emulator
 def response_generator():
     response = random.choice(
-    response = [
+        [
     "Hello there! How can I assist you today?",
     "Hi, human! Is there anything I can help you with?",
     "Do you need help?",
